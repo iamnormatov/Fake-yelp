@@ -15,23 +15,23 @@ export default function PostForm({createPost}) {
   }
   return (
     <>
-      <h4 className="text-center ">Add Restaurants</h4>
+      <h4 className="text-center ">New add Restaurants</h4>
       <form>
         <MyInput
           type="text"
           className="form-control"
-          placeholder="Restaurant name"
+          placeholder="Name"
           value={post.resName}
           onChange={(e) => setPost({ ...post, resName: e.target.value })}
         />
         <MyInput
           type="text"
           className="form-control my-2"
-          placeholder="Restaurant Location"
+          placeholder="Location"
           value={post.resLocation}
           onChange={(e) => setPost({ ...post, resLocation: e.target.value })}
         />
-        <MyButton className="btn btn-success w-100" onClick={addPost}>
+        <MyButton className="btn btn-primary w-30" onClick={addPost}>
           Add post
         </MyButton>
       </form>
