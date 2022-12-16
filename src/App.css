@@ -4,3 +4,33 @@
   min-height: 100vh;
 }
 
+body {
+  background: rgb(70, 95, 89);
+  color: #ff9900;
+}
+
+.signOut {
+  position: absolute;
+  top: 30px;
+  left: 1200px;
+  border-radius: 50px;
+}
+.button{
+  border-radius: 15px;
+}
+.mt-5{
+  margin-top: -100px !important;
+}
+.text-center{
+  margin: 0 !important;
+  margin-top: 130px !important;
+}
+form{
+  margin-top: 15px !important;
+}
+.card{
+  margin-top: 15px !important;
+}
+button{
+  border-radius: 0 !important;
+}
