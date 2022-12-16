@@ -45,7 +45,7 @@ const App = () => {
         <AmplifySignOut className="signOut" />
       </div>
       <div className="row">
-        <h1 className="text-center mt-3">My Yelp Project</h1>
+        <h1 className="text-center mt-3">Welcome to my Yelp</h1>
         <div className="col-md-6 mt-5">
           <PostForm createPost={createPost} />
         </div>
